@@ -1,0 +1,88 @@
+import type { Product } from "./types";
+
+export const demoProducts: Product[] = [
+  {
+    id: "sony-wh-1000xm6",
+    name: "Sony WH-1000XM6",
+    description: "Wireless Noise Cancelling Headphones",
+    price: 34990,
+    rating: 4.7,
+    brand: "Sony",
+    category: "Audio",
+    merchant: "Amazon",
+    image:
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+  {
+    id: "apple-macbook-air-m4",
+    name: "Apple MacBook Air M4",
+    description: "13-inch • 16GB • 512GB",
+    price: 99900,
+    rating: 4.8,
+    brand: "Apple",
+    category: "Laptops",
+    merchant: "Apple Store",
+    image:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+  {
+    id: "samsung-galaxy-s26",
+    name: "Samsung Galaxy S26",
+    description: "256GB • 5G",
+    price: 79999,
+    rating: 4.6,
+    brand: "Samsung",
+    category: "Electronics",
+    merchant: "Amazon",
+    image:
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+  {
+    id: "logitech-mx-master-4",
+    name: "Logitech MX Master 4",
+    description: "Wireless Performance Mouse",
+    price: 9995,
+    rating: 4.7,
+    brand: "Logitech",
+    category: "Accessories",
+    merchant: "Flipkart",
+    image:
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+  {
+    id: "ipad-air",
+    name: "iPad Air",
+    description: "11-inch • Wi-Fi",
+    price: 59900,
+    rating: 4.8,
+    brand: "Apple",
+    category: "Electronics",
+    merchant: "Amazon",
+    image:
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+  {
+    id: "kindle-paperwhite",
+    name: "Kindle Paperwhite",
+    description: "16GB • 7-inch",
+    price: 16999,
+    rating: 4.6,
+    brand: "Amazon",
+    category: "Electronics",
+    merchant: "Amazon",
+    image:
+      "https://images.unsplash.com/photo-1592496001020-d31bd830651f?q=80&w=600&auto=format&fit=crop",
+    affiliateUrl: "#",
+    status: "active",
+  },
+];
