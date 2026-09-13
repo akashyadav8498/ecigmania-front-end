@@ -1,13 +1,21 @@
+export type Offer = {
+  id: string;
+  merchant: string;
+  price: number;
+  affiliateUrl: string;
+  availability: "in_stock" | "out_of_stock" | "unknown";
+  originalPrice?: number;
+};
+
 export type Product = {
   id: string;
+  slug: string;
   brand: string;
   name: string;
   description: string;
-  price: number;
   rating: number;
   category: string;
   image: string;
-  merchant: string;
-  affiliateUrl: string;
   status: "active" | "inactive";
+  offers: Offer[];
 };
